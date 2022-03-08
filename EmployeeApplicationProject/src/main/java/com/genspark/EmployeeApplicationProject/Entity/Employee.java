@@ -2,24 +2,24 @@ package com.genspark.EmployeeApplicationProject.Entity;
 
 public class Employee {
 
-    private String id;
+    private long id;
     private String name;
     private String job;
 
     public Employee() {
     }
 
-    public Employee(String id, String name, String job) {
+    public Employee(Long id, String name, String job) {
         this.id = id;
         this.name = name;
         this.job = job;
     }
 
-    public String getId() {
+    public  long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(long id) {
         this.id = id;
     }
 
